@@ -1,5 +1,6 @@
 #lang racket
 
+; recursive process
 (define (accumulate combiner null-value term a next b)
   (if (> a b)
       null-value
@@ -14,6 +15,7 @@
   (define (next x) (+ x 1))
   (accumulate combiner null-value term 1 next n))
 
+; iterative process
 (define (accumulate2 combiner null-value term a next b)
   (define (iter start result)
     (if (> start b)

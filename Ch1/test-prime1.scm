@@ -1,5 +1,5 @@
 (define (prime? n)
-  (= n (smallest-divisor n)))
+  (and (not (= n 1)) (= n (smallest-divisor n))))
 
 (define (smallest-divisor n)
   (define (find-divisor n test-divisor)
