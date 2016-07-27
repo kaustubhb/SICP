@@ -1,7 +1,6 @@
-(#%require (only racket/base current-milliseconds))
-(#%require (only racket/base random))
+; finding primes using little fermat theorem
 
-
+#lang racket
 
 (define (runtime) (current-milliseconds))
 

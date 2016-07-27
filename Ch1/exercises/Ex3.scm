@@ -20,6 +20,8 @@
 ;                      b
 ;                      (if (a > c) a c))))))
 
+; sum of sqaures of 2 larger numbers
+
 (define (squareSum a b) (+ (square a) (square b)))
 
 (define (sumSqMax2 a b c)

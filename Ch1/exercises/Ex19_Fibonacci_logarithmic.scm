@@ -1,3 +1,5 @@
+; computing nth fibonacci number in logarithmic time
+
 ; This was a tough one!
 ; The iterative version reads like
 

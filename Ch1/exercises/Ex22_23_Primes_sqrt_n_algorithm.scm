@@ -1,4 +1,4 @@
-(#%require (only racket/base current-milliseconds))
+#lang racket
 
 (define (runtime) (current-milliseconds))
 
